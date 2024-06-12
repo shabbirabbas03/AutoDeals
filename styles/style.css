@@ -1,0 +1,19 @@
+body,
+html {
+    overflow-x: clip;
+}
+.navbar ul li a:hover{
+    color: brown;
+}
+.font-times-roman {
+    font-family: 'Times New Roman', Times, serif;
+}
+.feature__item .feature__item__icon {
+    height: 100px;
+    width: 100px;
+    background: #ffffff;
+    border-radius: 50%;
+    line-height: 100px;
+    margin-bottom: 20px !important;
+    margin: 0 auto;
+}
