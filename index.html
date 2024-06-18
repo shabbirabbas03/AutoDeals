@@ -1,299 +1,322 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/webp+xml" href="/Icon-img/" />
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
-    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
-    <script src="./js/main.js" type="module"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>AutoDeals</title>
-  </head>
-  <body>
-    <!-- NAVBAR START -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container">
-        <img width="80" height="80" src="/Icon-img/sports-car-vehicle-silhouette-badge-design-automobile-dealer-concept-logo-vector-illustration-98454511.webp" class="rounded-5 object-fit-contain" alt="sports-car-vehicle-silhouette-badge-design-automobile-dealer-concept-logo-vector-illustration-98454511">
-        <a class="navbar-brand" href="/">
-          <h1 class="font-times-roman fw-bold fs-1" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000"><span class="text-danger">Auto</span>Deals.</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 fs-5 gap-3">
-            <li class="nav-item dropdown">
-              <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Home
-              </a>
-              <ul class="dropdown-menu bg-dark bg-gradient border border-light">
-                <li><a class="dropdown-item text-danger" href="#">Homepage Mosaic</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Homepage Car Dealer</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Homepage Location</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Homepage Modern</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Homepage Classic</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item text-danger" href="#">Homepage Slideshow</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Listing
-              </a>
-              <ul class="dropdown-menu bg-dark bg-gradient border border-light">
-                <li><a class="dropdown-item text-danger" href="#">Gallery</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Mosaic</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Carousel</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Private Message System</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Pages
-              </a>
-              <ul class="dropdown-menu bg-dark bg-gradient border border-light">
-                <li><a class="dropdown-item text-danger" href="#">Blog</a></li>
-                <li><a class="dropdown-item text-danger" href="#">About Us</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Contact</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Our team – simple</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Our team – advanced</a></li>
-                <li><a class="dropdown-item text-danger" href="#">User profile page</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Sold</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Loan Calculator</a></li>
-                <li><a class="dropdown-item text-danger" href="#">FAQ</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Login / Register</a></li>
-                <li><a class="dropdown-item text-danger" href="#">404 Page</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                More
-              </a>
-              <ul class="dropdown-menu bg-dark bg-gradient border border-light">
-                <li><a class="dropdown-item text-danger" href="#">Main Features</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Refund Policy</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Help Center (Support)</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Reviews</a></li>
-                <li><a class="dropdown-item text-danger" href="#">Free Demo</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item text-danger" href="#">FAQ</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Log in</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Register</a>
-            </li>
-          </ul>
-            <form class="d-flex ms-5 justify-content-between align-items-center mx-3 gap-2" role="search">
-              <button class="font-times-roman btn btn-danger btn-lg text-white rounded-3 shadow-lg" type="submit">+ Add List</button>
-            </form>
-        </div>
-    </nav>
-    <!-- NAVBAR END -->
 
-    <!-- CAROUSEL START -->
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="/slide-img/slide_1.webp"
-            class="w-100 rounded-3" alt="slide_1">
-          <div class="carousel-caption d-none text-start end-50 bottom-50 mx-5 d-md-block" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="3000">
-            <h1 class="font-times-roman text-black fw-700">WELCOME TO
-                 CAR AUTO DEAL</h1>
-            <p class="fst-italic">Discover your own style. Don try to repeat what has already been written have the courage
-              to do your own thing and don't be afraid to do something different.</p>
-            <button class="font-times-roman btn btn-outline-dark shadow-lg text-bold btn-lg rounded-5" type="submit">View Inventory</button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="/slide-img/slide_2.webp" class="w-100 rounded-3"
-            alt="slide_2">
-          <div class="carousel-caption d-none text-start end-50 bottom-50 d-md-block" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="3000">
-            <h1 class="font-times-roman fw-bold text-black w-75">Let Us
-                Help You
-                Get Your Next Car !</h1>
-            <p class="fst-italic">Discover your own style. Don try to repeat what has already been written have
-              the courage to do your own thing and don't be afraid to do something different.</p>
-            <button class="font-times-roman btn btn-dark text-bold btn-lg rounded-5" type="submit">CONTACT US</button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img height="680"
-            src="/slide-img/slide_3.webp"
-            class="w-100" alt="slide_3">
-          <div class="carousel-caption d-none my-5 text-center d-md-block" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="3000">
-            <h1 class="font-times-roman fst-bold py-2 me-5 text-white">WE CARE ABOUT
-                YOUR CAR</h1>
-                <h3 class="text-start py-4 fst-italic">Luxury Car Dealerships :-</h3>
-            <p class="text-start text-secondary">-> High-end vehicles from luxury manufacturers like Mercedes-Benz, BMW, and Lexus are their areas of expertise. They have a wide selection of new and used cars and give excellent customer service.
-               These dealerships might additionally feature a high-end car-specific servicing division.</p>
-               <h3 class="text-start py-4 fst-italic">Limited Inventory :-</h3>
-               <p class="text-start text-secondary">-> Auto dealerships have a small selection of vehicles, with the majority just carrying a few makes and models.
-                 Customers may find it difficult to locate the actual vehicle they desire, particularly if they have a specific color or feature in mind.</p>
-                <h3 class="text-start py-4 fst-italic">Expertise :-</h3>
-                <p class="text-start text-secondary">-> Car dealerships have knowledgeable sales staff who can provide customers with information on different car models, features, and financing options.
-                   They can also help customers choose the right car for their needs and budget.</p> 
-            <button class="font-times-roman btn btn-outline-secondary text-white btn-lg rounded-5" type="submit">ABOUT US</button>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/webp+xml"
+    href="/Icon-img/sports-car-vehicle-silhouette-badge-design-automobile-dealer-concept-logo-vector-illustration-98454511.webp" />
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+  <script src="./js/main.js" type="module"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoDeals</title>
+</head>
+
+<body>
+  <!-- NAVBAR START -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <img width="80" height="80"
+        src="/Icon-img/sports-car-vehicle-silhouette-badge-design-automobile-dealer-concept-logo-vector-illustration-98454511.webp"
+        class="rounded-5 object-fit-contain"
+        alt="sports-car-vehicle-silhouette-badge-design-automobile-dealer-concept-logo-vector-illustration-98454511">
+      <a class="navbar-brand" href="/">
+        <h1 class="font-times-roman fw-bold fs-1" data-aos="fade-right" data-aos-easing="linear"
+          data-aos-duration="1000"><span class="text-danger">Auto</span>Deals.</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 fs-5 gap-3">
+          <li class="nav-item dropdown">
+            <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home
+            </a>
+            <ul class="dropdown-menu bg-dark bg-gradient border border-light">
+              <li><a class="dropdown-item text-danger" href="#">Homepage Mosaic</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Homepage Car Dealer</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Homepage Location</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Homepage Modern</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Homepage Classic</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item text-danger" href="#">Homepage Slideshow</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Listing
+            </a>
+            <ul class="dropdown-menu bg-dark bg-gradient border border-light">
+              <li><a class="dropdown-item text-danger" href="#">Gallery</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Mosaic</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Carousel</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Private Message System</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Others
+            </a>
+            <ul class="dropdown-menu bg-dark bg-gradient border border-light">
+              <li><a class="dropdown-item text-danger" href="#">Blog</a></li>
+              <li><a class="dropdown-item text-danger" href="#">About Us</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Contact</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Our team – simple</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Our team – advanced</a></li>
+              <li><a class="dropdown-item text-danger" href="#">User profile page</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Sold</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Loan Calculator</a></li>
+              <li><a class="dropdown-item text-danger" href="#">FAQ</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Login / Register</a></li>
+              <li><a class="dropdown-item text-danger" href="#">404 Page</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu bg-dark bg-gradient border border-light">
+              <li><a class="dropdown-item text-danger" href="#">Main Features</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Refund Policy</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Help Center (Support)</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Reviews</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Free Demo</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item text-danger" href="#">FAQ</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Log in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Register</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-5 justify-content-between align-items-center mx-3 gap-2" role="search">
+          <button class="font-times-roman btn btn-danger btn-lg text-white rounded-3 shadow-lg" type="submit">+ Add
+            List</button>
+        </form>
+      </div>
+  </nav>
+  <!-- NAVBAR END -->
+
+  <!-- CAROUSEL START -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
-    <!-- CAROUSEL END -->
-    <!--OUR SERVICE START  -->
-    <section class="container my-5">
-      <div class="row d-flex flex-md-row flex-column align-items-center justify-content-center">
-        <div class="text-center gap-5">
-          <h5 class="font-times-roman text-danger" data-aos="zoom-in" data-aos-duration="2000">OUR SERVICES</h5>
-          <h1 data-aos="zoom-in" data-aos-duration="2000">What We Offers</h1>
-          <p class="text-center my-5 fst-italic px-5 mx-5" data-aos="fade-down" data-aos-duration="1000">Car dealerships offer after-sales services, including maintenance and repair, parts and accessories, and warranties.
-             These services ensure that customers' cars remain in good condition and are properly maintained.</p>
-          <div class="d-flex flex-md-row flex-column align-items-center justify-content-evenly py-5 gap-5">
-              <div class="shadow-lg rounded-5 p-5" data-aos="flip-right" data-aos-duration="2000">
-                <img src="/Service-img/services-1.png.webp" alt="services-1">
-                <h3 class="fst-italic">Rent A Cars</h3>
-                <p>Ut enim ad minim veniam, quis trud exercitation...</p>
-                <i class="bi bi-arrow-right-circle fs-1 btn btn-outline-danger border-0 py-0 rounded-5"></i>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/slide-img/slide_1.webp" class="w-100 rounded-3" alt="slide_1">
+        <div class="carousel-caption d-none text-start end-50 bottom-50 mx-5 d-md-block" data-aos="fade-right"
+          data-aos-easing="linear" data-aos-duration="3000">
+          <h1 class="font-times-roman text-black fw-700">WELCOME TO
+            CAR AUTO DEAL</h1>
+          <p class="fst-italic">Discover your own style. Don try to repeat what has already been written have the
+            courage
+            to do your own thing and don't be afraid to do something different.</p>
+          <button class="font-times-roman btn btn-outline-dark shadow-lg text-bold btn-lg rounded-5" type="submit">View
+            Inventory</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/slide-img/slide_2.webp" class="w-100 rounded-3" alt="slide_2">
+        <div class="carousel-caption d-none text-start end-50 bottom-50 d-md-block" data-aos="fade-right"
+          data-aos-easing="linear" data-aos-duration="3000">
+          <h1 class="font-times-roman fw-bold text-black w-75">Let Us
+            Help You
+            Get Your Next Car !</h1>
+          <p class="fst-italic">Discover your own style. Don try to repeat what has already been written have
+            the courage to do your own thing and don't be afraid to do something different.</p>
+          <button class="font-times-roman btn btn-dark text-bold btn-lg rounded-5" type="submit">CONTACT US</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img height="680" src="/slide-img/slide_3.webp" class="w-100" alt="slide_3">
+        <div class="carousel-caption d-none my-5 text-center d-md-block" data-aos="zoom-in" data-aos-easing="linear"
+          data-aos-duration="3000">
+          <h1 class="font-times-roman fst-bold py-2 me-5 text-white">WE CARE ABOUT
+            YOUR CAR</h1>
+          <h3 class="text-start py-4 fst-italic">Luxury Car Dealerships :-</h3>
+          <p class="text-start text-secondary">-> High-end vehicles from luxury manufacturers like Mercedes-Benz, BMW,
+            and Lexus are their areas of expertise. They have a wide selection of new and used cars and give excellent
+            customer service.
+            These dealerships might additionally feature a high-end car-specific servicing division.</p>
+          <h3 class="text-start py-4 fst-italic">Limited Inventory :-</h3>
+          <p class="text-start text-secondary">-> Auto dealerships have a small selection of vehicles, with the majority
+            just carrying a few makes and models.
+            Customers may find it difficult to locate the actual vehicle they desire, particularly if they have a
+            specific color or feature in mind.</p>
+          <h3 class="text-start py-4 fst-italic">Expertise :-</h3>
+          <p class="text-start text-secondary">-> Car dealerships have knowledgeable sales staff who can provide
+            customers with information on different car models, features, and financing options.
+            They can also help customers choose the right car for their needs and budget.</p>
+          <button class="font-times-roman btn btn-outline-secondary text-white btn-lg rounded-5" type="submit">ABOUT
+            US</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- CAROUSEL END -->
+  <!--OUR SERVICE START  -->
+  <section class="container my-5">
+    <div class="row d-flex flex-md-row flex-column align-items-center justify-content-center">
+      <div class="text-center gap-5">
+        <h5 class="font-times-roman text-danger" data-aos="zoom-in" data-aos-duration="2000">OUR SERVICES</h5>
+        <h1 data-aos="zoom-in" data-aos-duration="2000">What We Offers</h1>
+        <p class="text-center my-5 fst-italic px-5 mx-5" data-aos="fade-down" data-aos-duration="1000">Car dealerships
+          offer after-sales services, including maintenance and repair, parts and accessories, and warranties.
+          These services ensure that customers' cars remain in good condition and are properly maintained.</p>
+        <div class="d-flex flex-md-row flex-column align-items-center justify-content-evenly py-5 gap-5">
+          <div class="shadow-lg rounded-5 p-5" data-aos="flip-right" data-aos-duration="2000">
+            <img src="/Service-img/services-1.png.webp" alt="services-1">
+            <h3 class="fst-italic">Rent A Cars</h3>
+            <p>Ut enim ad minim veniam, quis trud exercitation...</p>
+            <i class="bi bi-arrow-right-circle fs-1 btn btn-outline-danger border-0 py-0 rounded-5"></i>
+          </div>
+          <div class="shadow-lg rounded-5 p-5" data-aos="flip-left" data-aos-duration="2000">
+            <img src="/Service-img/services-2.png.webp" alt="services-2">
+            <h3 class="fst-italic">Buy A Cars</h3>
+            <p>Consectetur adipisicing elit, sed doe eiusmod.</p>
+            <i class="bi bi-arrow-right-circle fs-1 btn btn-outline-danger border-0 py-0 rounded-5"></i>
+          </div>
+          <div class="shadow-lg rounded-5 p-5" data-aos="flip-right" data-aos-duration="2000">
+            <img src="/Service-img/services-3.png.webp" alt="services-3">
+            <h3 class="fst-italic">Maintenance</h3>
+            <p>Nemo enim ipsam voluptatem quia voluptas</p>
+            <i class="bi bi-arrow-right-circle fs-1 btn btn-outline-danger border-0 py-0 rounded-5"></i>
+          </div>
+          <div class="shadow-lg rounded-5 p-5" data-aos="flip-left" data-aos-duration="2000">
+            <img src="/Service-img/services-4.png.webp" alt="services-4">
+            <h3 class="fst-italic">Support 24/7</h3>
+            <p>Ut enim ad minim veniam, quis trud exercitation...</p>
+            <i class="bi bi-arrow-right-circle fs-1 btn btn-outline-danger border-0 py-0 rounded-5"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- OUR SERVICE END  -->
+  <!-- OUR FEATURE START -->
+  <div class="container py-5 my-5">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-4" data-aos="zoom-out-right" data-aos-duration="2000">
+        <h5 class="text-danger">Our Feature</h5>
+        <h1 class="font-times-roman fs-1">We Are a Trusted Name In Auto</h1>
+        <p class="fst-italic">Conventional Cars Have Limited Technological Integretion. They typically include basic
+          feature like manual control, basic infotainment
+          Systems, and Standard safety feature Such as Airbags and anti-lock Braking system. </p>
+        <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et</p>
+        <button class="font-times-roman btn btn-outline-danger btn-lg shadow-lg text-bold rounded-3 my-5"
+          type="submit">ABOUT US</button>
+        <button class="font-times-roman btn btn-outline-dark btn-lg shadow-lg text-bold rounded-3 my-5"
+          type="submit">OUR PARTNERS</button>
+      </div>
+      <div class="col-md-4" data-aos="zoom-out-down" data-aos-duration="2000">
+        <img class="object-fit-contain" width="550" height="550" src="/Feature-img/trustcar.png" alt="trustcar">
+      </div>
+      <div class="col-md-4" data-aos="zoom-out-left" data-aos-duration="2000">
+        <div class="row align-items-center justify-content-center text-center ms-5">
+          <div class="col-lg-6 col-md-4 col-6" data-aos="flip-right" data-aos-duration="3000">
+            <div class="feature__item text-center">
+              <div class="feature__item__icon shadow-lg">
+                <img src="/Feature-img/feature-1.png.webp" alt="feature-1">
               </div>
-              <div class="shadow-lg rounded-5 p-5" data-aos="flip-left" data-aos-duration="2000">
-                <img src="/Service-img/services-2.png.webp" alt="services-2">
-                <h3 class="fst-italic">Buy A Cars</h3>
-                <p>Consectetur adipisicing elit, sed doe eiusmod.</p>
-                  <i class="bi bi-arrow-right-circle fs-1 btn btn-outline-danger border-0 py-0 rounded-5"></i>
+              <h6>Engine</h6>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4 col-6" data-aos="flip-right" data-aos-duration="3000">
+            <div class="feature__item text-center">
+              <div class="feature__item__icon shadow-lg">
+                <img src="/Feature-img/feature-2.png.webp" alt="feature-2">
               </div>
-              <div class="shadow-lg rounded-5 p-5" data-aos="flip-right" data-aos-duration="2000">
-                <img src="/Service-img/services-3.png.webp" alt="services-3">
-                <h3 class="fst-italic">Maintenance</h3>
-                <p>Nemo enim ipsam voluptatem quia voluptas</p>
-                  <i class="bi bi-arrow-right-circle fs-1 btn btn-outline-danger border-0 py-0 rounded-5"></i>
+              <h6>Turbo</h6>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4 col-6" data-aos="flip-right" data-aos-duration="3000">
+            <div class="feature__item text-center">
+              <div class="feature__item__icon shadow-lg">
+                <img src="/Feature-img/feature-3.png.webp" alt="feature-3">
               </div>
-              <div class="shadow-lg rounded-5 p-5" data-aos="flip-left" data-aos-duration="2000">
-                <img src="/Service-img/services-4.png.webp" alt="services-4">
-                <h3 class="fst-italic">Support 24/7</h3>
-                <p>Ut enim ad minim veniam, quis trud exercitation...</p>
-                  <i class="bi bi-arrow-right-circle fs-1 btn btn-outline-danger border-0 py-0 rounded-5"></i>
+              <h6>Colling</h6>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4 col-6" data-aos="flip-right" data-aos-duration="3000">
+            <div class="feature__item text-center">
+              <div class="feature__item__icon shadow-lg">
+                <img src="/Feature-img/feature-4.png.webp" alt="feature-4">
+              </div>
+              <h6>Suspension</h6>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4 col-6" data-aos="flip-right" data-aos-duration="3000">
+            <div class="feature__item text-center">
+              <div class="feature__item__icon shadow-lg">
+                <img src="/Feature-img/feature-5.png.webp" alt="feature-5">
+              </div>
+              <h6>Electrical</h6>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4 col-6" data-aos="flip-right" data-aos-duration="3000">
+            <div class="feature__item text-center">
+              <div class="feature__item__icon shadow-lg">
+                <img src="/Feature-img/feature-6.png.webp" alt="feature-6">
+              </div>
+              <h6>Brakes</h6>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- OUR SERVICE END  -->
-    <!-- OUR FEATURE START -->
-    <div class="container py-5 my-5">
-      <div class="row align-items-center justify-content-center"> 
-        <div class="col-md-4" data-aos="zoom-out-right" data-aos-duration="2000">
-          <h5 class="text-danger">Our Feature</h5>
-          <h1 class="font-times-roman fs-1">We Are a Trusted Name In Auto</h1>
-          <p class="fst-italic">Conventional Cars Have Limited Technological Integretion. They typically include basic feature like manual control, basic infotainment
-            Systems, and Standard safety feature Such as Airbags and anti-lock Braking system. </p>
-            <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-          <button class="font-times-roman btn btn-outline-danger btn-lg shadow-lg text-bold rounded-3 my-5" type="submit">ABOUT US</button>
-          <button class="font-times-roman btn btn-outline-dark btn-lg shadow-lg text-bold rounded-3 my-5" type="submit">OUR PARTNERS</button>
-        </div>
-        <div class="col-md-4" data-aos="zoom-out-down" data-aos-duration="2000">
-          <img class="object-fit-contain" width="550" height="550"
-            src="/Feature-img/trustcar.png" alt="trustcar">
-        </div>
-        <div class="col-md-4" data-aos="zoom-out-left" data-aos-duration="2000">
-          <div class="row align-items-center justify-content-center text-center ms-5">
-            <div class="col-lg-6 col-md-4 col-6" data-aos="flip-right" data-aos-duration="3000">
-              <div class="feature__item text-center">
-                <div class="feature__item__icon shadow-lg">
-                  <img src="/Feature-img/feature-1.png.webp" alt="feature-1">
-                </div>
-                <h6>Engine</h6>
-               </div>
-            </div>
-            <div class="col-lg-6 col-md-4 col-6" data-aos="flip-right" data-aos-duration="3000">
-              <div class="feature__item text-center">
-               <div class="feature__item__icon shadow-lg">
-                 <img src="/Feature-img/feature-2.png.webp" alt="feature-2">
-               </div>
-               <h6>Turbo</h6>
-              </div>
-             </div>
-             <div class="col-lg-6 col-md-4 col-6" data-aos="flip-right" data-aos-duration="3000">
-              <div class="feature__item text-center">
-               <div class="feature__item__icon shadow-lg">
-                 <img src="/Feature-img/feature-3.png.webp" alt="feature-3">
-               </div>
-               <h6>Colling</h6>
-              </div>
-             </div>
-             <div class="col-lg-6 col-md-4 col-6" data-aos="flip-right" data-aos-duration="3000">
-              <div class="feature__item text-center">
-               <div class="feature__item__icon shadow-lg">
-                 <img src="/Feature-img/feature-4.png.webp" alt="feature-4">
-               </div>
-               <h6>Suspension</h6>
-              </div>
-             </div>
-             <div class="col-lg-6 col-md-4 col-6" data-aos="flip-right" data-aos-duration="3000">
-              <div class="feature__item text-center">
-               <div class="feature__item__icon shadow-lg">
-                 <img src="/Feature-img/feature-5.png.webp" alt="feature-5">
-               </div>
-               <h6>Electrical</h6>
-              </div>
-             </div>
-             <div class="col-lg-6 col-md-4 col-6" data-aos="flip-right" data-aos-duration="3000">
-              <div class="feature__item text-center">
-               <div class="feature__item__icon shadow-lg">
-                 <img src="/Feature-img/feature-6.png.webp" alt="feature-6">
-               </div>
-               <h6>Brakes</h6>
-              </div>
-             </div>
-           </div> 
-        </div>
-      </div>
     </div>
-    <!-- OUR FEATURE END  -->
-    <!-- LUXURY BRAND START --> 
-    <div class="container bg-body-tertiary p-5 shadow-lg rounded-5 py-5 my-5">
-      <div class="row align-items-center justify-content-between">
-        <div class="col-md-4" data-aos="zoom-in-right" data-aos-duration="3000">
-          <h6 class="text-danger fst-italic">Explore the best car listings</h6>
-          <h1 class="font-times-roman fs-1">Choose Your Luxury Car Brand</h1>
-          <p class="fst-italic">Conventional Cars Have Limited Technological Integretion. They typically include basic feature like manual control, basic infotainment
-            Systems, and Standard safety feature Such as Airbags and anti-lock Braking system.</p>
-          <button class="font-times-roman btn btn-outline-danger btn-lg shadow-lg text-bold rounded-2 mt-4 bi bi-caret-right" type="submit">VIEW ALL</button>
-        </div>
-       <div class="col">
+  </div>
+  <!-- OUR FEATURE END  -->
+  <!-- LUXURY BRAND START -->
+  <div class="container bg-body-tertiary p-5 shadow-lg rounded-5 py-5 my-5">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md-4" data-aos="zoom-in-right" data-aos-duration="3000">
+        <h6 class="text-danger fst-italic">Explore the best car listings</h6>
+        <h1 class="font-times-roman fs-1">Choose Your Luxury Car Brand</h1>
+        <p class="fst-italic">Conventional Cars Have Limited Technological Integretion. They typically include basic
+          feature like manual control, basic infotainment
+          Systems, and Standard safety feature Such as Airbags and anti-lock Braking system.</p>
+        <button
+          class="font-times-roman btn btn-outline-danger btn-lg shadow-lg text-bold rounded-2 mt-4 bi bi-caret-right"
+          type="submit">VIEW ALL</button>
+      </div>
+      <div class="col">
         <div class="row row-cols-3">
           <div class="d-flex justify-content-start align-items-center" data-aos="zoom-in-down" data-aos-duration="2000">
             <img class="h-75 p-4 rounded-4 shadow-lg" src="/Brand-img/brand_1.png" alt="brand_1">
           </div>
           <div class="d-flex justify-content-start align-items-center" data-aos="zoom-in-down" data-aos-duration="2000">
-            <img width="135px" class="h-75 p-4 rounded-4 shadow-lg object-fit-contain" src="/Brand-img/brand_2.png" alt="brand_2">
+            <img width="135px" class="h-75 p-4 rounded-4 shadow-lg object-fit-contain" src="/Brand-img/brand_2.png"
+              alt="brand_2">
           </div>
           <div class="d-flex justify-content-start align-items-center" data-aos="zoom-in-down" data-aos-duration="2000">
-            <img width="135px" class="h-75 p-4 rounded-4 shadow-lg object-fit-contain" src="/Brand-img/brand_3.png" alt="brand_3">
+            <img width="135px" class="h-75 p-4 rounded-4 shadow-lg object-fit-contain" src="/Brand-img/brand_3.png"
+              alt="brand_3">
           </div>
           <div class="d-flex justify-content-start align-items-center" data-aos="zoom-in-up" data-aos-duration="2000">
             <img class="h-75 p-4 rounded-4 shadow-lg" src="/Brand-img/brand_4.png" alt="brand_4">
@@ -306,34 +329,36 @@
           </div>
         </div>
       </div>
-     </div>
     </div>
-    <!-- LUXURY BRAND END  -->
-    <!-- OUR OFFER START -->
-    <section class="container bg-body-tertiary bg-gradient rounded-3 py-5 my-5" data-aos="flip-left" data-aos-duration="2000">
-      <div class="row align-items-center justify-content-center">
-        <div class="text-center gap-5" data-aos="zoom-in" data-aos-duration="2000">
-          <h5 class="font-times-roman text-danger">OUR CAR</h5>
-          <h1>Best Vehicle Offers</h1> 
-        </div>
-        <div class="d-flex align-items-center justify-content-evenly py-5 flex-wrap gap-md-0 gap-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-          <div class="d-flex">
-            <div class="shadow-lg text-center">
-              <div class="border w-100">
+  </div>
+  <!-- LUXURY BRAND END  -->
+  <!-- OUR OFFER START -->
+  <section class="container bg-body-tertiary bg-gradient rounded-3 py-5 my-5" data-aos="flip-left"
+    data-aos-duration="2000">
+    <div class="row align-items-center justify-content-center">
+      <div class="text-center gap-5" data-aos="zoom-in" data-aos-duration="2000">
+        <h5 class="font-times-roman text-danger">OUR CAR</h5>
+        <h1>Best Vehicle Offers</h1>
+      </div>
+      <div class="d-flex align-items-center justify-content-evenly py-5 flex-wrap gap-md-0 gap-4" data-aos="fade-down"
+        data-aos-easing="linear" data-aos-duration="1500">
+        <div class="d-flex">
+          <div class="shadow-lg text-center">
+            <div class="border w-100">
               <img src="/car-img/car-1.jpg.webp" alt="car-1">
               <h6 class="border w-25 ms-3">2019</h6>
               <h5><span class="fst-italic">Maclren V8 asv50l</span></h5>
               <p>25,900 mi | Auto | 980 hp</p>
               <div class=" d-flex border w-100">
-              <button class="btn btn-primary btn-lg rounded-1 text-start shadow-lg">For Rent</button>
-              <h6 class="p-2 mt-2 ms-4 text-danger">$218/Month</h6>
-              </div>
+                <button class="btn btn-primary btn-lg rounded-1 text-start shadow-lg">For Rent</button>
+                <h6 class="p-2 mt-2 ms-4 text-danger">$218/Month</h6>
               </div>
             </div>
           </div>
-          <div class="d-flex">
-            <div class="shadow-lg text-center">
-              <div class="border w-100">
+        </div>
+        <div class="d-flex">
+          <div class="shadow-lg text-center">
+            <div class="border w-100">
               <img src="/car-img/car-2.jpg.webp" alt="car-2">
               <h6 class="border w-25 ms-3">2015</h6>
               <h5><span class="fst-italic">La Ferrari V12</span></h5>
@@ -341,13 +366,13 @@
               <div class=" d-flex border w-100">
                 <button class="btn btn-danger btn-lg rounded-1 text-start shadow-lg">For Sale</button>
                 <h6 class="p-2 mt-2 ms-4 text-danger">$73,900</h6>
-                </div>
+              </div>
             </div>
           </div>
-         </div>
-          <div class="d-flex">
-            <div class="shadow-lg text-center">
-              <div class="border w-100">
+        </div>
+        <div class="d-flex">
+          <div class="shadow-lg text-center">
+            <div class="border w-100">
               <img src="/car-img/car-7.jpg.webp" alt="car-7">
               <h6 class="border w-25 ms-3">2012</h6>
               <h5><span class="fst-italic">Audi q8 V6</span></h5>
@@ -355,13 +380,13 @@
               <div class=" d-flex border w-100">
                 <button class="btn btn-primary btn-lg rounded-1 text-start shadow-lg">For Rent</button>
                 <h6 class="p-2 mt-2 ms-4 text-danger">$299/Month</h6>
-                </div>
               </div>
             </div>
           </div>
-          <div class="d-flex">
-            <div class="shadow-lg text-center">
-              <div class="border w-100">
+        </div>
+        <div class="d-flex">
+          <div class="shadow-lg text-center">
+            <div class="border w-100">
               <img src="/car-img/car-5.jpg.webp" alt="car-5">
               <h6 class="border w-25 ms-3">2019</h6>
               <h5><span class="fst-italic">Toyota camry V8</span></h5>
@@ -369,34 +394,35 @@
               <div class=" d-flex border w-100">
                 <button class="btn btn-danger btn-lg rounded-1 text-start shadow-lg">For Sale</button>
                 <h6 class="p-2 mt-2 ms-4 text-danger">$120,000</h6>
-                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    <!-- OUR OFFER END  -->
-    <!-- OUR OFFER2 START  -->
-    <section class="container bg-body-tertiary bg-gradient rounded-5" data-aos="flip-left" data-aos-duration="2000">
-      <div class="row d-flex flex-md-row flex-column align-items-center justify-content-center text-black">
-        <div class="d-flex align-items-center justify-content-evenly py-5 flex-wrap gap-md-0 gap-4" data-aos="flip-right" data-aos-duration="3000">
-          <div class="d-flex" data-aos="flip-left" data-aos-duration="3000">
-            <div class="shadow-lg text-center">
-              <div class="border w-100">
+      </div>
+  </section>
+  <!-- OUR OFFER END  -->
+  <!-- OUR OFFER2 START  -->
+  <section class="container bg-body-tertiary bg-gradient rounded-5" data-aos="flip-left" data-aos-duration="2000">
+    <div class="row d-flex flex-md-row flex-column align-items-center justify-content-center text-black">
+      <div class="d-flex align-items-center justify-content-evenly py-5 flex-wrap gap-md-0 gap-4" data-aos="flip-right"
+        data-aos-duration="3000">
+        <div class="d-flex" data-aos="flip-left" data-aos-duration="3000">
+          <div class="shadow-lg text-center">
+            <div class="border w-100">
               <img src="/car-img/car-4.jpg.webp" alt="car-4">
               <h6 class="border w-25 ms-3">2015</h6>
               <h5><span class="fst-italic">BMW M5 Cs</span></h5>
               <p>15,800 mi | Auto | 750 hp</p>
               <div class=" d-flex border w-100">
-              <button class="btn btn-primary btn-lg rounded-1 text-start shadow-lg">For Rent</button>
-              <h6 class="p-2 mt-2 ms-4 text-danger">$418/SixMonth</h6>
-              </div>
+                <button class="btn btn-primary btn-lg rounded-1 text-start shadow-lg">For Rent</button>
+                <h6 class="p-2 mt-2 ms-4 text-danger">$418/SixMonth</h6>
               </div>
             </div>
           </div>
-          <div class="d-flex" data-aos="flip-left" data-aos-duration="3000"> 
-            <div class="shadow-lg text-center">
-              <div class="border w-100">
+        </div>
+        <div class="d-flex" data-aos="flip-left" data-aos-duration="3000">
+          <div class="shadow-lg text-center">
+            <div class="border w-100">
               <img src="/car-img/car-6.jpg.webp" alt="car-6">
               <h6 class="border w-25 ms-3">2018</h6>
               <h5><span class="fst-italic">Lamborgini SVJ-63</span></h5>
@@ -404,13 +430,13 @@
               <div class=" d-flex border w-100">
                 <button class="btn btn-danger btn-lg rounded-1 text-start shadow-lg">For Sale</button>
                 <h6 class="p-2 mt-2 ms-4 text-danger">$93,900</h6>
-                </div>
+              </div>
             </div>
           </div>
-         </div>
-          <div class="d-flex" data-aos="flip-left" data-aos-duration="3000">
-            <div class="shadow-lg text-center">
-              <div class="border w-100">
+        </div>
+        <div class="d-flex" data-aos="flip-left" data-aos-duration="3000">
+          <div class="shadow-lg text-center">
+            <div class="border w-100">
               <img src="/car-img/car-1.jpg.webp" alt="car-1">
               <h6 class="border w-25 ms-3">2017</h6>
               <h5><span class="fst-italic">Maclaren-q9 V6</span></h5>
@@ -418,13 +444,13 @@
               <div class=" d-flex border w-100">
                 <button class="btn btn-primary btn-lg rounded-1 text-start shadow-lg">For Rent</button>
                 <h6 class="p-2 mt-2 ms-4 text-danger">$399/SixMonth</h6>
-                </div>
               </div>
             </div>
           </div>
-          <div class="d-flex" data-aos="flip-left" data-aos-duration="3000">
-            <div class="shadow-lg text-center">
-              <div class="border w-100">
+        </div>
+        <div class="d-flex" data-aos="flip-left" data-aos-duration="3000">
+          <div class="shadow-lg text-center">
+            <div class="border w-100">
               <img src="/car-img/car-2.jpg.webp" alt="car-2">
               <h6 class="border w-25 ms-3">2013</h6>
               <h5><span class="fst-italic">La Ferrari aperta V12</span></h5>
@@ -432,74 +458,77 @@
               <div class=" d-flex border w-100">
                 <button class="btn btn-danger btn-lg rounded-1 text-start shadow-lg">For Sale</button>
                 <h6 class="p-2 mt-2 ms-4 text-danger">$210,000</h6>
-                </div>
               </div>
             </div>
           </div>
         </div>
-       </div>
-      </section>
-    <!-- OUR OFFER2 END -->
-    <!-- CHOOSE US START -->
-    <div class="container bg-body-tertiary p-5 rounded-2 py-5 my-5">
-      <div class="d-flex flex-md-row flex-column justify-content-between align-items-center">
-         <div data-aos="zoom-out-left" data-aos-duration="3000">
-             <h1 class="font-times-roman text-danger fst-italic fs-1">Why People Choose Us</h1>
-             <p class="text-secondary">> Duis aute irure dolorin reprehenderits velit dolore fugiat pariatur excepteur sint cupidatat.</p>
-             <ul class="fs-4 text fst-italic">
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Integer et nisl et massa tempor ornare vel id orci.</li>
-              <li>Nunc consectetur ligula vitae nisl placerat tempus.</li>
-              <li>Curabitur quis ante vitae lacus varius pretium.</li>
-              <li>Velit et nisl et massa tempor ornare vel id orci.</li>
-              <li>Duis consectetur ligula vitae nisl placerat tempus.</li>
-              <li>Dolore quis ante vitae lacus varius pretium.</li>
+      </div>
+    </div>
+  </section>
+  <!-- OUR OFFER2 END -->
+  <!-- CHOOSE US START -->
+  <div class="container bg-body-tertiary p-5 rounded-2 py-5 my-5">
+    <div class="d-flex flex-md-row flex-column justify-content-between align-items-center">
+      <div data-aos="zoom-out-left" data-aos-duration="3000">
+        <h1 class="font-times-roman text-danger fst-italic fs-1">Why People Choose Us</h1>
+        <p class="text-secondary">> Duis aute irure dolorin reprehenderits velit dolore fugiat pariatur excepteur sint
+          cupidatat.</p>
+        <ul class="fs-4 text fst-italic">
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Integer et nisl et massa tempor ornare vel id orci.</li>
+          <li>Nunc consectetur ligula vitae nisl placerat tempus.</li>
+          <li>Curabitur quis ante vitae lacus varius pretium.</li>
+          <li>Velit et nisl et massa tempor ornare vel id orci.</li>
+          <li>Duis consectetur ligula vitae nisl placerat tempus.</li>
+          <li>Dolore quis ante vitae lacus varius pretium.</li>
 
-             </ul>
-             <button type="button" class="font-times-roman btn btn-outline-danger btn-lg rounded-4">About Us</button>
-         </div>
-         <div class="position-relative">
-          <img class=" w-100 ms-2 rounded-4 shadow-lg" height="600" src="/choose-img/Road.jpg" alt="Road">
-          <div class="position-absolute top-50">
-          <img class="w-100 h-100 object-fit-contain" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="2000" src="/car-img/car-silver.png" alt="car-silver" srcset="">
-          </div>
-          </div>
-          </div>
-         </div>  
-    <!-- CHOOSE US END  -->
-    <!-- LOCATION START -->
-    <div class="container bg-body-secondary bg-gradient bg-opacity-50 p-5 rounded-4 py-5 my-5" data-aos="flip-left" data-aos-duration="2000">
-      <div class="row flex-md-row flex-column justify-content-center align-items-center">
-        <div class="col-md-6">
-          <h2 class="fs-1 fw-bold fst-italic">Get in Touch</h2>
-          <h4 class="fst-italic">Contact our Sales Departament</h4>
-          <h1 class="fs-1 fw-bolder text-danger my-5">(123) 456-78901</h1>
-          <ul class="fs-4 fst-italic">
-            <li>Monday:  9:00-13:00</li>
-            <li>Tuesday:  9:00-13:00</li>
-            <li>Wednesday:  9:00-13:00</li>
-            <li>Thursday:  9:00-13:00</li>
-            <li>Friday:  9:00-13:00</li>
-            <li>Saturday:  9:00-13:00</li>
-            <li>Sunday:  CLOSED</li>
-          </ul>
+        </ul>
+        <button type="button" class="font-times-roman btn btn-outline-danger btn-lg rounded-4 mb-2">About Us</button>
+      </div>
+      <div class="position-relative">
+        <img class=" w-100 ms-2 rounded-4 shadow-lg" height="600" src="/choose-img/Road.jpg" alt="Road">
+        <div class="position-absolute top-50">
+          <img class="w-100 h-100 object-fit-contain" data-aos="fade-right" data-aos-easing="linear"
+            data-aos-duration="2000" src="/car-img/car-silver.png" alt="car-silver" srcset="">
         </div>
-        <div class="col-md-6" data-aos="flip-right" data-aos-duration="3000">
-          <form class="bg-dark-subtle justify-content-end align-items-end p-5 rounded-5">
-            <div class="mb-3">
-              <h1 class="ms-5 py-3 fw-bold fst-italic">Search listings</h1>
-              <label for="exampleInputEmail1" class="form-label">Luxuary Brand Name</label>
-              <input type="name" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Car Models</label>
-              <input type="models" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Location</label>
-              <input type="location" class="form-control w-75" id="exampleInputPassword1">
-            </div>
-            <div class="d-flex">
+      </div>
+    </div>
+  </div>
+  <!-- CHOOSE US END  -->
+  <!-- LOCATION START -->
+  <div class="container bg-body-secondary bg-gradient bg-opacity-50 p-5 rounded-4 py-5 my-5" data-aos="flip-left"
+    data-aos-duration="2000">
+    <div class="row flex-md-row flex-column justify-content-center align-items-center">
+      <div class="col-md-6">
+        <h2 class="fs-1 fw-bold fst-italic">Get in Touch</h2>
+        <h4 class="fst-italic">Contact our Sales Departament</h4>
+        <h1 class="fs-1 fw-bolder text-danger my-5">(123) 456-78901</h1>
+        <ul class="fs-4 fst-italic">
+          <li>Monday: 9:00-13:00</li>
+          <li>Tuesday: 9:00-13:00</li>
+          <li>Wednesday: 9:00-13:00</li>
+          <li>Thursday: 9:00-13:00</li>
+          <li>Friday: 9:00-13:00</li>
+          <li>Saturday: 9:00-13:00</li>
+          <li>Sunday: CLOSED</li>
+        </ul>
+      </div>
+      <div class="col-md-6" data-aos="flip-right" data-aos-duration="3000">
+        <form class="bg-dark-subtle justify-content-end align-items-end p-5 rounded-5">
+          <div class="mb-3">
+            <h1 class="ms-5 py-3 fw-bold fst-italic">Search listings</h1>
+            <label for="exampleInputEmail1" class="form-label">Luxuary Brand Name</label>
+            <input type="name" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Car Models</label>
+            <input type="models" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Location</label>
+            <input type="location" class="form-control w-75" id="exampleInputPassword1">
+          </div>
+          <div class="d-flex">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Min Price</label>
               <input type="price" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -508,58 +537,60 @@
               <label for="exampleInputEmail1" class="form-label">Max Price</label>
               <input type="price" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
-            </div>
-            <button type="submit" class="font-times-roman btn btn-danger btn-lg">Submit</button>
-          </form> 
-        </div>
+          </div>
+          <button type="submit" class="font-times-roman btn btn-danger btn-lg">Submit</button>
+        </form>
       </div>
     </div>
-    <!-- LOCATION END -->
-    <!-- FOOTER START -->
-    <section class="container bg-black bg-gradient p-5 shadow-lg rounded-5 py-5 my-5"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-      <div class="d-flex flex-md-row flex-column justify-content-between align-items-center text-white">
-        <div class="text-start ms-5 mb-5">
-          <h1 class="font-times-roman fs-1 fw-bold mb-4"><span class="text-danger">Auto</span>Deal.</h1>
-          <h6 class="bi bi-phone">-(123) 345-6789</h6>
-          <h6 class="bi bi-geo-alt">-518-520 5th AveNew York, USA</h6>
-          <h6>support@tangibledesign.net</h6>
-          <h6 class="bi bi-qr-code-scan">-Follow our social media</h6>
-          <i class="bi bi-facebook fs-4 me-2"></i>
-          <i class="bi bi-instagram fs-4 me-2"></i>
-          <i class="bi bi-twitter-x fs-4 me-2"></i>
-          <i class="bi bi-whatsapp fs-4 me-2"></i>
-        </div>
-        <div class="text-start text-danger mb-5 me-5">
-          <h5 class="fst-italic text-white">Useful links</h5>
-          <h6>Panel</h6>
-          <h6>Our Team</h6>
-          <h6>Map Search</h6>
-          <h6>FAQ</h6>
-          <h6>Privacy Policy</h6>
-        </div>
-        <div class="text-start text-danger mb-5 me-5">
-          <h5 class="fst-italic text-white">Categories</h5>
-          <h6>Sedan</h6>
-          <h6>Coupe</h6>
-          <h6>SUV</h6>
-          <h6>convertible</h6>
-          <h6>Hatchback</h6>
-        </div>
-        <div class="text-start text-danger mb-5">
-          <h5 class="fst-italic text-white">Newest listings​</h5>
-          <h6>Ford focus SE
-           - $45,000</h6>
-          <h6>Audi A6
-           - $45,000</h6>
-          <h6>Porshe R5 (Retro)
-           - $90,000</h6>
-          <h6>Jeep 104 GT
-           - $85,000</h6>
-          <h6>Maybach S350 L
-           - $99,500</h6>  
-        </div>
+  </div>
+  <!-- LOCATION END -->
+  <!-- FOOTER START -->
+  <section class="container bg-black bg-gradient p-5 shadow-lg rounded-5 py-5 my-5" data-aos="fade-up"
+    data-aos-easing="linear" data-aos-duration="1500">
+    <div class="d-flex flex-md-row flex-column justify-content-between align-items-center text-white">
+      <div class="text-start ms-5 mb-5">
+        <h1 class="font-times-roman fs-1 fw-bold mb-4"><span class="text-danger">Auto</span>Deal.</h1>
+        <h6 class="bi bi-phone">-(123) 345-6789</h6>
+        <h6 class="bi bi-geo-alt">-518-520 5th AveNew York, USA</h6>
+        <h6>support@tangibledesign.net</h6>
+        <h6 class="bi bi-qr-code-scan">-Follow our social media</h6>
+        <i class="bi bi-facebook fs-4 me-2"></i>
+        <i class="bi bi-instagram fs-4 me-2"></i>
+        <i class="bi bi-twitter-x fs-4 me-2"></i>
+        <i class="bi bi-whatsapp fs-4 me-2"></i>
       </div>
-    </section>
-    <!-- FOOTER END -->
-  </body>
+      <div class="text-start text-danger mb-5 me-5">
+        <h5 class="fst-italic text-white">Useful links</h5>
+        <h6>Panel</h6>
+        <h6>Our Team</h6>
+        <h6>Map Search</h6>
+        <h6>FAQ</h6>
+        <h6>Privacy Policy</h6>
+      </div>
+      <div class="text-start text-danger mb-5 me-5">
+        <h5 class="fst-italic text-white">Categories</h5>
+        <h6>Sedan</h6>
+        <h6>Coupe</h6>
+        <h6>SUV</h6>
+        <h6>convertible</h6>
+        <h6>Hatchback</h6>
+      </div>
+      <div class="text-start text-danger mb-5">
+        <h5 class="fst-italic text-white">Newest listings​</h5>
+        <h6>Ford focus SE
+          - $45,000</h6>
+        <h6>Audi A6
+          - $45,000</h6>
+        <h6>Porshe R5 (Retro)
+          - $90,000</h6>
+        <h6>Jeep 104 GT
+          - $85,000</h6>
+        <h6>Maybach S350 L
+          - $99,500</h6>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER END -->
+</body>
+
 </html>
